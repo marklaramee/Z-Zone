@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Z_ZoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Z_ZoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		25133ABD130B4ADE0074337F /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25133ABB130B4ADE0074337F /* MainView.m */; };
+		25133ABE130B4ADE0074337F /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25133ABC130B4ADE0074337F /* MainView.xib */; };
+		25133AC4130B4AEC0074337F /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25133AC2130B4AEC0074337F /* SettingsView.m */; };
+		25133AC5130B4AEC0074337F /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25133AC3130B4AEC0074337F /* SettingsView.xib */; };
+		25133ACB130B4AFC0074337F /* AllContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 25133AC9130B4AFC0074337F /* AllContacts.m */; };
+		25133ACC130B4AFC0074337F /* AllContacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25133ACA130B4AFC0074337F /* AllContacts.xib */; };
+		25133AD2130B4B0C0074337F /* ZzoneContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 25133AD0130B4B0C0074337F /* ZzoneContacts.m */; };
+		25133AD3130B4B0C0074337F /* ZzoneContacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25133AD1130B4B0C0074337F /* ZzoneContacts.xib */; };
+		25133AD9130B4B160074337F /* NormalContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 25133AD7130B4B160074337F /* NormalContacts.m */; };
+		25133ADA130B4B160074337F /* NormalContacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25133AD8130B4B160074337F /* NormalContacts.xib */; };
+		2559F844130B535900DC3298 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559F843130B535900DC3298 /* AddressBook.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2559F865130B53C600DC3298 /* zzone_cell_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2559F864130B53C600DC3298 /* zzone_cell_bg.png */; };
+		258CC98F1324B57500FA193A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258CC98E1324B57500FA193A /* iAd.framework */; };
+		258CC9951324B5D400FA193A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 258CC9941324B5D400FA193A /* Entitlements.plist */; };
+		25E864571320861100186C22 /* general_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E864551320861100186C22 /* general_background.png */; };
+		25E8645A1320862000186C22 /* zzone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E864591320862000186C22 /* zzone-icon.png */; };
+		25E8647013208D9C00186C22 /* zzone_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8646F13208D9C00186C22 /* zzone_logo.png */; };
+		25E864AE13209AAC00186C22 /* zzone_logo_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E864AD13209AAC00186C22 /* zzone_logo_red.png */; };
+		25E864BC13213A5A00186C22 /* zzone_cell_bg_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E864BB13213A5A00186C22 /* zzone_cell_bg_purple.png */; };
+		25E8656B13216C5900186C22 /* tab_all_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8656813216C5900186C22 /* tab_all_32.png */; };
+		25E8656C13216C5900186C22 /* tab_normal_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8656913216C5900186C22 /* tab_normal_32.png */; };
+		25E8656D13216C5900186C22 /* tab_zzone_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8656A13216C5900186C22 /* tab_zzone_32.png */; };
+		25E8657613217B7F00186C22 /* tab_main_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8657513217B7F00186C22 /* tab_main_32.png */; };
+		25E8657813217B8900186C22 /* tab_settings_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E8657713217B8900186C22 /* tab_settings_32.png */; };
+		25E865C3132183B000186C22 /* zzone-icon-pop1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E865C2132183B000186C22 /* zzone-icon-pop1.png */; };
+		25EEC75B13249D3F00A9F5E8 /* settingsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EEC75A13249D3F00A9F5E8 /* settingsicon.png */; };
+		25EEC76113249F6500A9F5E8 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EEC76013249F6500A9F5E8 /* iTunesArtwork.png */; };
+		25EEC76313249F6D00A9F5E8 /* launch-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EEC76213249F6D00A9F5E8 /* launch-image.png */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Z_ZoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z_ZoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Z_ZoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z_ZoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Z-Zone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Z-Zone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25133ABA130B4ADE0074337F /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		25133ABB130B4ADE0074337F /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		25133ABC130B4ADE0074337F /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = Classes/MainView.xib; sourceTree = "<group>"; };
+		25133AC1130B4AEC0074337F /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		25133AC2130B4AEC0074337F /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		25133AC3130B4AEC0074337F /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsView.xib; path = Classes/SettingsView.xib; sourceTree = "<group>"; };
+		25133AC8130B4AFC0074337F /* AllContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllContacts.h; sourceTree = "<group>"; };
+		25133AC9130B4AFC0074337F /* AllContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllContacts.m; sourceTree = "<group>"; };
+		25133ACA130B4AFC0074337F /* AllContacts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AllContacts.xib; path = Classes/AllContacts.xib; sourceTree = "<group>"; };
+		25133ACF130B4B0C0074337F /* ZzoneContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzoneContacts.h; sourceTree = "<group>"; };
+		25133AD0130B4B0C0074337F /* ZzoneContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzoneContacts.m; sourceTree = "<group>"; };
+		25133AD1130B4B0C0074337F /* ZzoneContacts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ZzoneContacts.xib; path = Classes/ZzoneContacts.xib; sourceTree = "<group>"; };
+		25133AD6130B4B160074337F /* NormalContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalContacts.h; sourceTree = "<group>"; };
+		25133AD7130B4B160074337F /* NormalContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalContacts.m; sourceTree = "<group>"; };
+		25133AD8130B4B160074337F /* NormalContacts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NormalContacts.xib; path = Classes/NormalContacts.xib; sourceTree = "<group>"; };
+		2559F843130B535900DC3298 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2559F864130B53C600DC3298 /* zzone_cell_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzone_cell_bg.png; sourceTree = "<group>"; };
+		258CC98E1324B57500FA193A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		258CC9941324B5D400FA193A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		25E864551320861100186C22 /* general_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = general_background.png; sourceTree = "<group>"; };
+		25E864591320862000186C22 /* zzone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zzone-icon.png"; sourceTree = "<group>"; };
+		25E8646F13208D9C00186C22 /* zzone_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzone_logo.png; sourceTree = "<group>"; };
+		25E864AD13209AAC00186C22 /* zzone_logo_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzone_logo_red.png; sourceTree = "<group>"; };
+		25E864BB13213A5A00186C22 /* zzone_cell_bg_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzone_cell_bg_purple.png; sourceTree = "<group>"; };
+		25E8656813216C5900186C22 /* tab_all_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_all_32.png; sourceTree = "<group>"; };
+		25E8656913216C5900186C22 /* tab_normal_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_normal_32.png; sourceTree = "<group>"; };
+		25E8656A13216C5900186C22 /* tab_zzone_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_zzone_32.png; sourceTree = "<group>"; };
+		25E8657513217B7F00186C22 /* tab_main_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_main_32.png; sourceTree = "<group>"; };
+		25E8657713217B8900186C22 /* tab_settings_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_settings_32.png; sourceTree = "<group>"; };
+		25E865C2132183B000186C22 /* zzone-icon-pop1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zzone-icon-pop1.png"; sourceTree = "<group>"; };
+		25EEC75A13249D3F00A9F5E8 /* settingsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsicon.png; sourceTree = "<group>"; };
+		25EEC76013249F6500A9F5E8 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		25EEC76213249F6D00A9F5E8 /* launch-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-image.png"; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Z_Zone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z_Zone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Z_Zone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Z_Zone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				2559F844130B535900DC3298 /* AddressBook.framework in Frameworks */,
+				258CC98F1324B57500FA193A /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25133AC1130B4AEC0074337F /* SettingsView.h */,
+				25133AC2130B4AEC0074337F /* SettingsView.m */,
+				25133AC8130B4AFC0074337F /* AllContacts.h */,
+				25133AC9130B4AFC0074337F /* AllContacts.m */,
+				25133ACF130B4B0C0074337F /* ZzoneContacts.h */,
+				25133AD0130B4B0C0074337F /* ZzoneContacts.m */,
+				25133AD6130B4B160074337F /* NormalContacts.h */,
+				25133AD7130B4B160074337F /* NormalContacts.m */,
+				1D3623240D0F684500981E51 /* Z_ZoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Z_ZoneAppDelegate.m */,
+				25133ABA130B4ADE0074337F /* MainView.h */,
+				25133ABB130B4ADE0074337F /* MainView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Z-Zone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Z_Zone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				258CC9941324B5D400FA193A /* Entitlements.plist */,
+				25EEC76213249F6D00A9F5E8 /* launch-image.png */,
+				25EEC76013249F6500A9F5E8 /* iTunesArtwork.png */,
+				25EEC75A13249D3F00A9F5E8 /* settingsicon.png */,
+				25E865C2132183B000186C22 /* zzone-icon-pop1.png */,
+				25E8657713217B8900186C22 /* tab_settings_32.png */,
+				25E8657513217B7F00186C22 /* tab_main_32.png */,
+				25E8656813216C5900186C22 /* tab_all_32.png */,
+				25E8656913216C5900186C22 /* tab_normal_32.png */,
+				25E8656A13216C5900186C22 /* tab_zzone_32.png */,
+				25E864BB13213A5A00186C22 /* zzone_cell_bg_purple.png */,
+				25E864AD13209AAC00186C22 /* zzone_logo_red.png */,
+				25E8646F13208D9C00186C22 /* zzone_logo.png */,
+				25E864591320862000186C22 /* zzone-icon.png */,
+				25E864551320861100186C22 /* general_background.png */,
+				2559F864130B53C600DC3298 /* zzone_cell_bg.png */,
+				25133ABC130B4ADE0074337F /* MainView.xib */,
+				25133AD8130B4B160074337F /* NormalContacts.xib */,
+				25133AD1130B4B0C0074337F /* ZzoneContacts.xib */,
+				25133ACA130B4AFC0074337F /* AllContacts.xib */,
+				25133AC3130B4AEC0074337F /* SettingsView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Z_Zone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				2559F843130B535900DC3298 /* AddressBook.framework */,
+				258CC98E1324B57500FA193A /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Z-Zone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Z-Zone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Z-Zone";
+			productName = "Z-Zone";
+			productReference = 1D6058910D05DD3D006BFB54 /* Z-Zone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Z-Zone" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Z-Zone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				25133ABE130B4ADE0074337F /* MainView.xib in Resources */,
+				25133AC5130B4AEC0074337F /* SettingsView.xib in Resources */,
+				25133ACC130B4AFC0074337F /* AllContacts.xib in Resources */,
+				25133AD3130B4B0C0074337F /* ZzoneContacts.xib in Resources */,
+				25133ADA130B4B160074337F /* NormalContacts.xib in Resources */,
+				2559F865130B53C600DC3298 /* zzone_cell_bg.png in Resources */,
+				25E864571320861100186C22 /* general_background.png in Resources */,
+				25E8645A1320862000186C22 /* zzone-icon.png in Resources */,
+				25E8647013208D9C00186C22 /* zzone_logo.png in Resources */,
+				25E864AE13209AAC00186C22 /* zzone_logo_red.png in Resources */,
+				25E864BC13213A5A00186C22 /* zzone_cell_bg_purple.png in Resources */,
+				25E8656B13216C5900186C22 /* tab_all_32.png in Resources */,
+				25E8656C13216C5900186C22 /* tab_normal_32.png in Resources */,
+				25E8656D13216C5900186C22 /* tab_zzone_32.png in Resources */,
+				25E8657613217B7F00186C22 /* tab_main_32.png in Resources */,
+				25E8657813217B8900186C22 /* tab_settings_32.png in Resources */,
+				25E865C3132183B000186C22 /* zzone-icon-pop1.png in Resources */,
+				25EEC75B13249D3F00A9F5E8 /* settingsicon.png in Resources */,
+				25EEC76113249F6500A9F5E8 /* iTunesArtwork.png in Resources */,
+				25EEC76313249F6D00A9F5E8 /* launch-image.png in Resources */,
+				258CC9951324B5D400FA193A /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Z_ZoneAppDelegate.m in Sources */,
+				25133ABD130B4ADE0074337F /* MainView.m in Sources */,
+				25133AC4130B4AEC0074337F /* SettingsView.m in Sources */,
+				25133ACB130B4AFC0074337F /* AllContacts.m in Sources */,
+				25133AD2130B4B0C0074337F /* ZzoneContacts.m in Sources */,
+				25133AD9130B4B160074337F /* NormalContacts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Laramee (VED7K25Y8P)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Z_Zone_Prefix.pch;
+				INFOPLIST_FILE = "Z_Zone-Info.plist";
+				PRODUCT_NAME = "Z-Zone";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "062B8522-1FF3-42E0-AD7D-98847FBE64E2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Z_Zone_Prefix.pch;
+				INFOPLIST_FILE = "Z_Zone-Info.plist";
+				PRODUCT_NAME = "Z-Zone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EEC7261323675B00A9F5E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mark Laramee";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "75458FB3-C3E0-4BAD-B5AA-5C327817FBC1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		25EEC7271323675B00A9F5E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mark Laramee";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Z_Zone_Prefix.pch;
+				INFOPLIST_FILE = "Z_Zone-Info.plist";
+				PRODUCT_NAME = "Z-Zone";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "75458FB3-C3E0-4BAD-B5AA-5C327817FBC1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Z-Zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				25EEC7271323675B00A9F5E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Z-Zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				25EEC7261323675B00A9F5E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

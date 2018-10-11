@@ -1,0 +1,621 @@
+TZ-Zone Free
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC1107D00000000000C9AB0
+t1287721085
+s826032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004CC110720000000000000424
+t1287721074
+s1060
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC11CB30000000000000202
+t1287724211
+s514
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC12BE50000000000050EB0
+t1287728101
+s331440
+
+N/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/75458FB3-C3E0-4BAD-B5AA-5C327817FBC1.mobileprovision
+c000000004D7482FF0000000000001BAB
+t1299481343
+s7083
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.h
+c000000004D75525E00000000000001AE
+t1299534430
+s430
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m
+c000000004D7DBB130000000000002119
+t1300085523
+s8473
+i"AllContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib
+c000000004D7103F0000000000000436C
+t1299252208
+s17260
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.h
+c000000004D711006000000000000012C
+t1299255302
+s300
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m
+c000000004D7111190000000000000657
+t1299255577
+s1623
+i"MainView.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib
+c000000004D7E54F60000000000007009
+t1300124918
+s28681
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.h
+c000000004D5B19B10000000000000162
+t1297815985
+s354
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m
+c000000004D7DBC9500000000000020F7
+t1300085909
+s8439
+i"NormalContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib
+c000000004D7103B50000000000004377
+t1299252149
+s17271
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.h
+c000000004D7111CC00000000000002D5
+t1299255756
+s725
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m
+c000000004D7112A30000000000000A35
+t1299255971
+s2613
+i"SettingsView.h"
+i<AddressBook/AddressBook.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib
+c000000004D7E54F6000000000000794E
+t1300124918
+s31054
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.h
+c000000004D7DC984000000000000060A
+t1300089220
+s1546
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m
+c000000004D7E4DC30000000000008963
+t1300123075
+s35171
+i"Z_ZoneAppDelegate.h"
+i<UIKit/UIKit.h>
+i<AddressBook/AddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.h
+c000000004D5B1BB00000000000000161
+t1297816496
+s353
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m
+c000000004D7DBC950000000000001F87
+t1300085909
+s8071
+i"ZzoneContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib
+c000000004D7103E20000000000004376
+t1299252194
+s17270
+
+N/iPhone Applications/My Projects/Z-Zone/Entitlements.plist
+c000000004D7462CD00000000000001B7
+t1299473101
+s439
+
+N/iPhone Applications/My Projects/Z-Zone/MainWindow.xib
+c000000004D7E54F50000000000009657
+t1300124917
+s38487
+
+N/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch
+c000000004D5B12DA00000000000000B5
+t1297814234
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app
+t1300124932
+s1054
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app.dSYM
+t1300124932
+s102
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/AllContacts.nib
+t1300124928
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Entitlements.plist
+t1300124929
+s168
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Info.plist
+t1300124927
+s894
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/MainView.nib
+t1300124928
+s2814
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/MainWindow.nib
+t1300124927
+s2424
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/NormalContacts.nib
+t1300124928
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/PkgInfo
+t1300124927
+s8
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/ResourceRules.plist
+t1300124927
+s485
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/SettingsView.nib
+t1300124928
+s2973
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Z-Zone Free
+t1300124932
+s147808
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/ZzoneContacts.nib
+t1300124928
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/embedded.mobileprovision
+t1300124932
+s7083
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/general_background.png
+t1300124929
+s16334
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/iTunesArtwork.png
+t1300124929
+s57951
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/launch-image.png
+t1300124929
+s86912
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/settingsicon.png
+t1300124929
+s2375
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_all_32.png
+t1300124929
+s622
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_main_32.png
+t1300124929
+s369
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_normal_32.png
+t1300124929
+s619
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_settings_32.png
+t1300124929
+s1518
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_zzone_32.png
+t1300124929
+s610
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone-icon-pop1.png
+t1300124929
+s2134
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone-icon.png
+t1300124928
+s865
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_cell_bg.png
+t1300124928
+s1070
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_cell_bg_purple.png
+t1300124929
+s882
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_logo.png
+t1300124929
+s1633
+
+N/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_logo_red.png
+t1300124929
+s1594
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/AllContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/MainView.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/NormalContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/SettingsView.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/Z-Zone Free
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/Z-Zone Free.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/Z_ZoneAppDelegate.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/ZzoneContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/AllContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/MainView.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/NormalContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/SettingsView.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/Z-Zone Free
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/Z-Zone Free.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/Z_ZoneAppDelegate.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/ZzoneContacts.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/iPhone Applications/My Projects/Z-Zone/general_background.png
+c000000004D704CEA000000000000358E
+t1299205354
+s13710
+
+N/iPhone Applications/My Projects/Z-Zone/iTunesArtwork.png
+c000000004D74664A000000000000AF5B
+t1299473994
+s44891
+
+N/iPhone Applications/My Projects/Z-Zone/launch-image.png
+c000000004D7466BE00000000000108AA
+t1299474110
+s67754
+
+N/iPhone Applications/My Projects/Z-Zone/main.m
+c000000004D5B12DA0000000000000168
+t1297814234
+s360
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/settingsicon.png
+c000000004D7463000000000000000871
+t1299473152
+s2161
+
+N/iPhone Applications/My Projects/Z-Zone/tab_all_32.png
+c000000004D7133D40000000000000240
+t1299264468
+s576
+
+N/iPhone Applications/My Projects/Z-Zone/tab_main_32.png
+c000000004D7142F80000000000000188
+t1299268344
+s392
+
+N/iPhone Applications/My Projects/Z-Zone/tab_normal_32.png
+c000000004D7133E00000000000000232
+t1299264480
+s562
+
+N/iPhone Applications/My Projects/Z-Zone/tab_settings_32.png
+c000000004D7142940000000000000742
+t1299268244
+s1858
+
+N/iPhone Applications/My Projects/Z-Zone/tab_zzone_32.png
+c000000004D7133CA000000000000022A
+t1299264458
+s554
+
+N/iPhone Applications/My Projects/Z-Zone/zzone-icon-pop1.png
+c000000004D714AAC0000000000000765
+t1299270316
+s1893
+
+N/iPhone Applications/My Projects/Z-Zone/zzone-icon.png
+c000000004D704B580000000000000315
+t1299204952
+s789
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg.png
+c000000004D5453CA000000000000039A
+t1297372106
+s922
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg_purple.png
+c000000004D7102000000000000000312
+t1299251712
+s786
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_logo.png
+c000000004D7054D40000000000000501
+t1299207380
+s1281
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_logo_red.png
+c000000004D705BD400000000000004F9
+t1299209172
+s1273
+
+N/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-aornyatllkenwnaulrcweecixyux/Z_Zone_Prefix.pch.gch
+t1299474710
+s9783000
+
+N/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-cysnbipjaxkjfehckaioiqgnfxib/Z_Zone_Prefix.pch.gch
+t1299474710
+s10249944
+
+NZ_Zone-Info.plist
+c000000004D74849B00000000000003F2
+t1299481755
+s1010
+
+CCodeSign "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app"
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/AllContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/MainView.o" "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/NormalContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/SettingsView.o" "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/Z_ZoneAppDelegate.o" "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/ZzoneContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/main.o" "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/AllContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/MainView.o" "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/NormalContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/SettingsView.o" "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/Z_ZoneAppDelegate.o" "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/ZzoneContacts.o" "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/main.o" "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib"
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib"
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib"
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib"
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib"
+r0
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/MainWindow.xib"
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/general_background.png" general_background.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/iTunesArtwork.png" iTunesArtwork.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/launch-image.png" launch-image.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/settingsicon.png" settingsicon.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_all_32.png" tab_all_32.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_main_32.png" tab_main_32.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_normal_32.png" tab_normal_32.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_settings_32.png" tab_settings_32.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/tab_zzone_32.png" tab_zzone_32.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone-icon-pop1.png" zzone-icon-pop1.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone-icon.png" zzone-icon.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_cell_bg.png" zzone_cell_bg.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_cell_bg_purple.png" zzone_cell_bg_purple.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_logo.png" zzone_logo.png
+r0
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/zzone_logo_red.png" zzone_logo_red.png
+r0
+
+CCopyPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Entitlements.plist" Entitlements.plist
+r0
+
+CCpResource "build/Distribution-iphoneos/Z-Zone Free.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Z-Zone Free" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app.dSYM" "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Z-Zone Free"
+r0
+
+CLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv6/Z-Zone Free" normal armv6
+r0
+
+CLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Objects-normal/armv7/Z-Zone Free" normal armv7
+r0
+
+CProcessInfoPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/Info.plist" Z_Zone-Info.plist
+r0
+
+CProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-aornyatllkenwnaulrcweecixyux/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-cysnbipjaxkjfehckaioiqgnfxib/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/75458FB3-C3E0-4BAD-B5AA-5C327817FBC1.mobileprovision" "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/iPhone Applications/My Projects/Z-Zone/Entitlements.plist" "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone Free.build/Distribution-iphoneos/Z-Zone Free.build/Z-Zone Free.xcent"
+r0
+
+CTouch "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app"
+r0
+
+CValidate "/iPhone Applications/My Projects/Z-Zone/build/Distribution-iphoneos/Z-Zone Free.app"
+r0
+

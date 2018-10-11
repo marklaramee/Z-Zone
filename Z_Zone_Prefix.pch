@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Z-Zone' target in the 'Z-Zone' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

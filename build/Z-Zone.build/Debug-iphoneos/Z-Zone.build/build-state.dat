@@ -1,0 +1,1027 @@
+TZ-Zone
+v7
+r0
+t321815877.051105
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Z-Zone.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Info.plist" Z_Zone-Info.plist
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/MainWindow.xib"
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib"
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib"
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib"
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib"
+cCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib"
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png" zzone_cell_bg.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/general_background.png" general_background.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon.png" zzone-icon.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo.png" zzone_logo.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png" zzone_logo_red.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png" zzone_cell_bg_purple.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_all_32.png" tab_all_32.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png" tab_normal_32.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png" tab_zzone_32.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_main_32.png" tab_main_32.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png" tab_settings_32.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png" zzone-icon-pop1.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/settingsicon.png" settingsicon.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png" iTunesArtwork.png
+cCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/launch-image.png" launch-image.png
+cCopyPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Entitlements.plist" Entitlements.plist
+cProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/main.o "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z_ZoneAppDelegate.o "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/MainView.o "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/SettingsView.o "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/AllContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/ZzoneContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/NormalContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/main.o "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z_ZoneAppDelegate.o "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/MainView.o "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/SettingsView.o "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/AllContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/ZzoneContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/NormalContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone" normal armv7
+cLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone" normal armv6
+cCreateUniversalBinary "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone" normal "armv6 armv7"
+cGenerateDSYMFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app.dSYM" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone"
+cProcessProductPackaging "/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision"
+cTouch "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent"
+cCodeSign "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC1107D00000000000C9AB0
+t1287721085
+s826032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004CC110720000000000000424
+t1287721074
+s1060
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC11CB30000000000000202
+t1287724211
+s514
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC12BE50000000000050EB0
+t1287728101
+s331440
+
+N/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision
+c000000004D74787E0000000000001BFF
+t1299478654
+s7167
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.h
+c000000004D75525E00000000000001AE
+t1299534430
+s430
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m
+c000000004D7DBB130000000000002119
+t1300085523
+s8473
+i"AllContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib
+c000000004D7103F0000000000000436C
+t1299252208
+s17260
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.h
+c000000004D711006000000000000012C
+t1299255302
+s300
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m
+c000000004D7111190000000000000657
+t1299255577
+s1623
+i"MainView.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib
+c000000004D787EBD0000000000007036
+t1299742397
+s28726
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.h
+c000000004D5B19B10000000000000162
+t1297815985
+s354
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m
+c000000004D7DBC9500000000000020F7
+t1300085909
+s8439
+i"NormalContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib
+c000000004D7103B50000000000004377
+t1299252149
+s17271
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.h
+c000000004D7111CC00000000000002D5
+t1299255756
+s725
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m
+c000000004D7112A30000000000000A35
+t1299255971
+s2613
+i"SettingsView.h"
+i<AddressBook/AddressBook.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib
+c000000004D7112BE0000000000007985
+t1299255998
+s31109
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.h
+c000000004D7DC984000000000000060A
+t1300089220
+s1546
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m
+c000000004D7E4DC30000000000008963
+t1300123075
+s35171
+i"Z_ZoneAppDelegate.h"
+i<UIKit/UIKit.h>
+i<AddressBook/AddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.h
+c000000004D5B1BB00000000000000161
+t1297816496
+s353
+i<UIKit/UIKit.h>
+i"Z_ZoneAppDelegate.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m
+c000000004D7DBC950000000000001F87
+t1300085909
+s8071
+i"ZzoneContacts.h"
+
+N/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib
+c000000004D7103E20000000000004376
+t1299252194
+s17270
+
+N/iPhone Applications/My Projects/Z-Zone/Entitlements.plist
+c000000004D7462CD00000000000001B7
+t1299473101
+s439
+
+N/iPhone Applications/My Projects/Z-Zone/MainWindow.xib
+c000000004D71442F0000000000009764
+t1299268655
+s38756
+
+N/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch
+c000000004D5B12DA00000000000000B5
+t1297814234
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app
+t1300123077
+s1054
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app.dSYM
+t1300123076
+s102
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/AllContacts.nib
+t1300088667
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Entitlements.plist
+t1300088668
+s168
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Info.plist
+t1300088666
+s879
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/MainView.nib
+t1300088667
+s2790
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/MainWindow.nib
+t1300088667
+s2414
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/NormalContacts.nib
+t1300088668
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/PkgInfo
+t1300088666
+s8
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/ResourceRules.plist
+t1300088666
+s485
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/SettingsView.nib
+t1300088667
+s2965
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone
+t1300123076
+s174548
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/ZzoneContacts.nib
+t1300088667
+s979
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision
+t1300088670
+s7167
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/general_background.png
+t1300088667
+s16334
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png
+t1300088668
+s57951
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/launch-image.png
+t1300088668
+s86912
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/settingsicon.png
+t1300088668
+s2375
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_all_32.png
+t1300088668
+s622
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_main_32.png
+t1300088668
+s369
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png
+t1300088668
+s619
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png
+t1300088668
+s1518
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png
+t1300088668
+s610
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png
+t1300088668
+s2134
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon.png
+t1300088668
+s865
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png
+t1300088667
+s1070
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png
+t1300088668
+s882
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo.png
+t1300088668
+s1633
+
+N/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png
+t1300088668
+s1594
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/AllContacts.o
+t1300089221
+s62380
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/MainView.o
+t1300088669
+s40176
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/NormalContacts.o
+t1300089221
+s61552
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/SettingsView.o
+t1300089221
+s57604
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone
+t1300123076
+s84436
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone.LinkFileList
+c000000004D7DC75A0000000000000358
+t1300088666
+s856
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z_ZoneAppDelegate.o
+t1300123076
+s125912
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/ZzoneContacts.o
+t1300089221
+s61668
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/main.o
+t1300088669
+s6448
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/AllContacts.o
+t1300089221
+s62016
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/MainView.o
+t1300088670
+s40096
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/NormalContacts.o
+t1300089221
+s61200
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/SettingsView.o
+t1300089221
+s57412
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone
+t1300123076
+s84436
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone.LinkFileList
+c000000004D7DC75A0000000000000358
+t1300088666
+s856
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z_ZoneAppDelegate.o
+t1300123076
+s125532
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/ZzoneContacts.o
+t1300089221
+s61316
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/main.o
+t1300088670
+s6432
+
+N/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent
+t1300088670
+s416
+
+N/iPhone Applications/My Projects/Z-Zone/general_background.png
+c000000004D704CEA000000000000358E
+t1299205354
+s13710
+
+N/iPhone Applications/My Projects/Z-Zone/iTunesArtwork.png
+c000000004D74664A000000000000AF5B
+t1299473994
+s44891
+
+N/iPhone Applications/My Projects/Z-Zone/launch-image.png
+c000000004D7466BE00000000000108AA
+t1299474110
+s67754
+
+N/iPhone Applications/My Projects/Z-Zone/main.m
+c000000004D5B12DA0000000000000168
+t1297814234
+s360
+i<UIKit/UIKit.h>
+
+N/iPhone Applications/My Projects/Z-Zone/settingsicon.png
+c000000004D7463000000000000000871
+t1299473152
+s2161
+
+N/iPhone Applications/My Projects/Z-Zone/tab_all_32.png
+c000000004D7133D40000000000000240
+t1299264468
+s576
+
+N/iPhone Applications/My Projects/Z-Zone/tab_main_32.png
+c000000004D7142F80000000000000188
+t1299268344
+s392
+
+N/iPhone Applications/My Projects/Z-Zone/tab_normal_32.png
+c000000004D7133E00000000000000232
+t1299264480
+s562
+
+N/iPhone Applications/My Projects/Z-Zone/tab_settings_32.png
+c000000004D7142940000000000000742
+t1299268244
+s1858
+
+N/iPhone Applications/My Projects/Z-Zone/tab_zzone_32.png
+c000000004D7133CA000000000000022A
+t1299264458
+s554
+
+N/iPhone Applications/My Projects/Z-Zone/zzone-icon-pop1.png
+c000000004D714AAC0000000000000765
+t1299270316
+s1893
+
+N/iPhone Applications/My Projects/Z-Zone/zzone-icon.png
+c000000004D704B580000000000000315
+t1299204952
+s789
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg.png
+c000000004D5453CA000000000000039A
+t1297372106
+s922
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg_purple.png
+c000000004D7102000000000000000312
+t1299251712
+s786
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_logo.png
+c000000004D7054D40000000000000501
+t1299207380
+s1281
+
+N/iPhone Applications/My Projects/Z-Zone/zzone_logo_red.png
+c000000004D705BD400000000000004F9
+t1299209172
+s1273
+
+N/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch.gch
+t1300088669
+s10446552
+
+N/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch.gch
+t1300088669
+s9983704
+
+NZ_Zone-Info.plist
+c000000004D74849B00000000000003F2
+t1299481755
+s1010
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321815876#321815876#0(0"0(0#1#0"8650904384#0"0#
+
+CCodeSign "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"
+s321815876.823380
+e321815877.051061
+r1
+xCodeSign
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/Z-Zone.app321815876#321815877#0(0"0(0#0#71"/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app8648961696#655"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Mark Laramee (VED7K25Y8P)" "--resource-rules=/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/ResourceRules.plist" --entitlements "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/AllContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321782021.061154
+e321782021.201203
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/AllContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m321782021#321782021#0(0"0(0#0#61"/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m8625121152#1759"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/AllContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/MainView.o "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321781469.818683
+e321781469.884988
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/MainView.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /iPhone Applications/My Projects/Z-Zone/Classes/MainView.m321781469#321781469#0(0"0(0#0#58"/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m8634041440#1753"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/MainView.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/NormalContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321782021.345802
+e321782021.479097
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/NormalContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m321782021#321782021#0(0"0(0#0#64"/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m8634244864#1765"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/NormalContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/SettingsView.o "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321782020.894268
+e321782021.061045
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/SettingsView.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m321782020#321782021#0(0"0(0#0#62"/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m8627469408#1761"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/SettingsView.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z_ZoneAppDelegate.o "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321815876.056734
+e321815876.735196
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z_ZoneAppDelegate.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m321815876#321815876#0(0"0(0#0#67"/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m8650336640#1771"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z_ZoneAppDelegate.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/ZzoneContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321782021.201304
+e321782021.345694
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/ZzoneContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m321782021#321782021#0(0"0(0#0#63"/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m8636708960#1763"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/ZzoneContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/main.o "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321781469.766548
+e321781469.818583
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/main.o
+x/iPhone Applications/My Projects/Z-Zone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /iPhone Applications/My Projects/Z-Zone/main.m321781469#321781469#0(0"0(0#0#46"/iPhone Applications/My Projects/Z-Zone/main.m8635424384#1737"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/main.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/AllContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321782021.615351
+e321782021.727013
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/AllContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m321782021#321782021#0(0"0(0#0#61"/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m8633244736#1759"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/AllContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/MainView.o "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321781470.336602
+e321781470.407844
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/MainView.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /iPhone Applications/My Projects/Z-Zone/Classes/MainView.m321781470#321781470#0(0"0(0#0#58"/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m8640487968#1753"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/MainView.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/NormalContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321782021.769401
+e321782021.887332
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/NormalContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m321782021#321782021#0(0"0(0#0#64"/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m8627368768#1765"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/NormalContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/SettingsView.o "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321782021.520276
+e321782021.615244
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/SettingsView.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m321782021#321782021#0(0"0(0#0#62"/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m8634267104#1761"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/SettingsView.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z_ZoneAppDelegate.o "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321815876.343402
+e321815876.671850
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z_ZoneAppDelegate.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m321815876#321815876#0(0"0(0#0#67"/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m8649910112#1771"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/Z_ZoneAppDelegate.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z_ZoneAppDelegate.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/ZzoneContacts.o "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321782021.727131
+e321782021.838622
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/ZzoneContacts.o
+x/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m321782021#321782021#0(0"0(0#0#63"/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m8628614208#1763"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/ZzoneContacts.o"0#
+
+CCompileC build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/main.o "/iPhone Applications/My Projects/Z-Zone/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321781470.207143
+e321781470.260473
+r1
+xCompileC
+xbuild/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/main.o
+x/iPhone Applications/My Projects/Z-Zone/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /iPhone Applications/My Projects/Z-Zone/main.m321781470#321781470#0(0"0(0#0#46"/iPhone Applications/My Projects/Z-Zone/main.m8640502368#1737"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -include /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch -c "/iPhone Applications/My Projects/Z-Zone/main.m" -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib"
+s321781467.086136
+e321781467.477098
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib
+lSLF07#2@34"CompileXIB Classes/AllContacts.xib321781467#321781467#0(0"0(0#0#63"/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib8635528832#560"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/AllContacts.nib" "/iPhone Applications/My Projects/Z-Zone/Classes/AllContacts.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib"
+s321781466.574003
+e321781467.086044
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/MainView.xib321781466#321781467#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib8630637120#554"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/MainView.nib" "/iPhone Applications/My Projects/Z-Zone/Classes/MainView.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib"
+s321781467.607774
+e321781468.070504
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib
+lSLF07#2@37"CompileXIB Classes/NormalContacts.xib321781467#321781468#0(0"0(0#0#66"/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib8631239072#566"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/NormalContacts.nib" "/iPhone Applications/My Projects/Z-Zone/Classes/NormalContacts.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib"
+s321781467.055389
+e321781467.607680
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB Classes/SettingsView.xib321781467#321781467#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#64"/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib8638290784#562"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/SettingsView.nib" "/iPhone Applications/My Projects/Z-Zone/Classes/SettingsView.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib"
+s321781467.477200
+e321781467.853886
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib
+lSLF07#2@36"CompileXIB Classes/ZzoneContacts.xib321781467#321781467#0(0"0(0#0#65"/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib8631756416#564"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/ZzoneContacts.nib" "/iPhone Applications/My Projects/Z-Zone/Classes/ZzoneContacts.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/iPhone Applications/My Projects/Z-Zone/MainWindow.xib"
+s321781466.572112
+e321781467.055301
+r1
+xCompileXIB
+x/iPhone Applications/My Projects/Z-Zone/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib321781466#321781467#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/iPhone Applications/My Projects/Z-Zone/MainWindow.xib8625937600#550"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/MainWindow.nib" "/iPhone Applications/My Projects/Z-Zone/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/general_background.png" general_background.png
+s321781467.889117
+e321781468.024471
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/general_background.png
+xgeneral_background.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/general_background.png general_background.png321781467#321781468#0(0"0(0#0#62"/iPhone Applications/My Projects/Z-Zone/general_background.png8633627488#592"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/general_background.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/general_background.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png" iTunesArtwork.png
+s321781468.207134
+e321781468.457766
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png
+xiTunesArtwork.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png iTunesArtwork.png321781468#321781468#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/iTunesArtwork.png8638734272#582"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/iTunesArtwork.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/iTunesArtwork.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/launch-image.png" launch-image.png
+s321781468.215980
+e321781468.607230
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/launch-image.png
+xlaunch-image.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/launch-image.png launch-image.png321781468#321781468#0(0"0(0#0#56"/iPhone Applications/My Projects/Z-Zone/launch-image.png8635122464#580"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/launch-image.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/launch-image.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/settingsicon.png" settingsicon.png
+s321781468.184697
+e321781468.215888
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/settingsicon.png
+xsettingsicon.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/settingsicon.png settingsicon.png321781468#321781468#0(0"0(0#0#56"/iPhone Applications/My Projects/Z-Zone/settingsicon.png8607998208#580"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/settingsicon.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/settingsicon.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_all_32.png" tab_all_32.png
+s321781468.102382
+e321781468.127205
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_all_32.png
+xtab_all_32.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/tab_all_32.png tab_all_32.png321781468#321781468#0(0"0(0#0#54"/iPhone Applications/My Projects/Z-Zone/tab_all_32.png8634283392#576"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/tab_all_32.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_all_32.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_main_32.png" tab_main_32.png
+s321781468.154048
+e321781468.178063
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_main_32.png
+xtab_main_32.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/tab_main_32.png tab_main_32.png321781468#321781468#0(0"0(0#0#55"/iPhone Applications/My Projects/Z-Zone/tab_main_32.png8631087968#578"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/tab_main_32.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_main_32.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png" tab_normal_32.png
+s321781468.127302
+e321781468.153957
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png
+xtab_normal_32.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png tab_normal_32.png321781468#321781468#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/tab_normal_32.png8633727520#582"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/tab_normal_32.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_normal_32.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png" tab_settings_32.png
+s321781468.157599
+e321781468.184599
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png
+xtab_settings_32.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png tab_settings_32.png321781468#321781468#0(0"0(0#0#59"/iPhone Applications/My Projects/Z-Zone/tab_settings_32.png8629314400#586"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/tab_settings_32.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_settings_32.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png" tab_zzone_32.png
+s321781468.131895
+e321781468.157505
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png
+xtab_zzone_32.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png tab_zzone_32.png321781468#321781468#0(0"0(0#0#56"/iPhone Applications/My Projects/Z-Zone/tab_zzone_32.png8633455136#580"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/tab_zzone_32.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/tab_zzone_32.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png" zzone-icon-pop1.png
+s321781468.178159
+e321781468.207034
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png
+xzzone-icon-pop1.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png zzone-icon-pop1.png321781468#321781468#0(0"0(0#0#59"/iPhone Applications/My Projects/Z-Zone/zzone-icon-pop1.png8627782240#586"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone-icon-pop1.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon-pop1.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon.png" zzone-icon.png
+s321781468.024569
+e321781468.071552
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon.png
+xzzone-icon.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone-icon.png zzone-icon.png321781468#321781468#0(0"0(0#0#54"/iPhone Applications/My Projects/Z-Zone/zzone-icon.png8640208032#576"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone-icon.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone-icon.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png" zzone_cell_bg.png
+s321781467.853996
+e321781467.889017
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png
+xzzone_cell_bg.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png zzone_cell_bg.png321781467#321781467#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg.png8627362464#582"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png" zzone_cell_bg_purple.png
+s321781468.101229
+e321781468.131798
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png
+xzzone_cell_bg_purple.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png zzone_cell_bg_purple.png321781468#321781468#0(0"0(0#0#64"/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg_purple.png8635296864#596"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone_cell_bg_purple.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_cell_bg_purple.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo.png" zzone_logo.png
+s321781468.070679
+e321781468.101128
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo.png
+xzzone_logo.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone_logo.png zzone_logo.png321781468#321781468#0(0"0(0#0#54"/iPhone Applications/My Projects/Z-Zone/zzone_logo.png8639100704#576"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone_logo.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo.png"0#
+
+CCopyPNGFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png" zzone_logo_red.png
+s321781468.071625
+e321781468.102308
+r1
+xCopyPNGFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png
+xzzone_logo_red.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png zzone_logo_red.png321781468#321781468#0(0"0(0#0#58"/iPhone Applications/My Projects/Z-Zone/zzone_logo_red.png8640488288#584"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/iPhone Applications/My Projects/Z-Zone/zzone_logo_red.png" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/zzone_logo_red.png"0#
+
+CCopyPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Entitlements.plist" Entitlements.plist
+s321781468.457865
+e321781468.478738
+r1
+xCopyPlistFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist321781468#321781468#0(0"0(0#0#58"/iPhone Applications/My Projects/Z-Zone/Entitlements.plist8634851648#384"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"0#
+
+CCpResource build/Debug-iphoneos/Z-Zone.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321781466.562165
+e321781466.572016
+r1
+xCpResource
+xbuild/Debug-iphoneos/Z-Zone.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321781466#321781466#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8625464384#499"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"0#
+
+CCreateUniversalBinary "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone" normal "armv6 armv7"
+s321815876.769642
+e321815876.773045
+r1
+xCreateUniversalBinary
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Z-Zone.app/Z-Zone normal "armv6 armv7"321815876#321815876#0(0"0(0#0#51"/iPhone Applications/My Projects/Z-Zone/armv6 armv78649449696#522"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone" "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone" -output "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone"0#
+
+CGenerateDSYMFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app.dSYM" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone"
+s321815876.773132
+e321815876.819904
+r1
+xGenerateDSYMFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app.dSYM
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Z-Zone.app.dSYM build/Debug-iphoneos/Z-Zone.app/Z-Zone321815876#321815876#0(0"0(0#0#78"/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone8649307968#368"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Z-Zone" -o "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app.dSYM"0#
+
+CLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone" normal armv6
+s321815876.735285
+e321815876.769533
+r1
+xLd
+x/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone
+xnormal
+xarmv6
+lSLF07#2@119"Link /iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone321815876#321815876#0(0"0(0#0#0"8649938656#906"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" -filelist "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework iAd -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv6/Z-Zone"0#
+
+CLd "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone" normal armv7
+s321815876.672376
+e321815876.723306
+r1
+xLd
+x/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone
+xnormal
+xarmv7
+lSLF07#2@119"Link /iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone321815876#321815876#0(0"0(0#0#0"8647067488#906"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" -filelist "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework iAd -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Objects-normal/armv7/Z-Zone"0#
+
+CProcessInfoPlistFile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Info.plist" Z_Zone-Info.plist
+s321781466.563038
+e321781466.566685
+r1
+xProcessInfoPlistFile
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Info.plist
+xZ_Zone-Info.plist
+lSLF07#2@25"Process Z_Zone-Info.plist321781466#321781466#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/Z_Zone-Info.plist8612079104#570"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Z_Zone-Info.plist -genpkginfo "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/ResourceRules.plist" -o "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/Info.plist"0#
+
+CProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321781468.608303
+e321781469.766284
+r1
+xProcessPCH
+x/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch.gch
+xZ_Zone_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Z_Zone_Prefix.pch321781468#321781469#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch8613363264#1633"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv7" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -c "/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch" -o /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-byerwuuxtqkuyjhaoljbophvlwfg/Z_Zone_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch.gch Z_Zone_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321781468.607364
+e321781469.543910
+r1
+xProcessPCH
+x/var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch.gch
+xZ_Zone_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Z_Zone_Prefix.pch321781468#321781469#0(0"0(0#0#57"/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch8631203840#1633"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-generated-files.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-own-target-headers.hmap" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-all-target-headers.hmap" -iquote "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone-project-headers.hmap" "-F/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos" "-I/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/include" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources/armv6" "-I/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/DerivedSources" -c "/iPhone Applications/My Projects/Z-Zone/Z_Zone_Prefix.pch" -o /var/folders/+l/+lgMptSaE4Cht96+NsloSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Z_Zone_Prefix-fumwwmneurjmysbmndjgelgobxrb/Z_Zone_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision" "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision"
+s321781470.868299
+e321781470.869589
+r1
+xProcessProductPackaging
+x/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision" build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision321781470#321781470#0(0"0(0#0#96"/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision8635356480#434"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/marklaramee/Library/MobileDevice/Provisioning Profiles/062B8522-1FF3-42E0-AD7D-98847FBE64E2.mobileprovision" -o "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent"
+s321781470.873522
+e321781470.892643
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent321781470#321781470#0(0"0(0#0#99"/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent8628061568#435"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/iPhone Applications/My Projects/Z-Zone/build/Z-Zone.build/Debug-iphoneos/Z-Zone.build/Z-Zone.xcent"0#
+
+CTouch "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"
+s321815876.820091
+e321815876.823212
+r1
+xTouch
+x/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app
+lSLF07#2@77"Touch /iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app321815876#321815876#0(0"0(0#0#0"8649016544#269"    cd "/iPhone Applications/My Projects/Z-Zone"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/iPhone Applications/My Projects/Z-Zone/build/Debug-iphoneos/Z-Zone.app"0#
+

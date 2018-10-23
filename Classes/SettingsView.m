@@ -17,7 +17,7 @@
 // Implement viewDidLoad to do additional setup (from a nib) after loading the view.
 - (void)viewDidLoad 
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	appDelegate = (Z_ZoneAppDelegate *)[[UIApplication sharedApplication] delegate];
 	txtPrefix.text=[appDelegate strPrefix];
 	vwScroll.contentSize = CGSizeMake(320.0, 300.0);
@@ -45,12 +45,12 @@
 }
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+	// Releases the view if it doesn't have a superview.
+	[super didReceiveMemoryWarning];
 }
 
 - (void)viewDidUnload {
-    [super viewDidUnload];
+	[super viewDidUnload];
 }
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -65,7 +65,7 @@
 	[txtPrefix release];
 	[appDelegate release];
 	[vwScroll release];
-    [super dealloc];
+	[super dealloc];
 }
 
 @end

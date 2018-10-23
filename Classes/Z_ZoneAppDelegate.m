@@ -2,7 +2,7 @@
 //  Copyright 2011 Mark Laramee. All rights reserved.
 
 /***********************************************
-    This is where all of the contact processing happens
+	This is where all of the contact processing happens
 		It was necessary to use C language in some places to work natively with the iPhone contacts
 		As Objective-C did not provide the necessary tools to do what I wanted
 
@@ -34,13 +34,13 @@
 #pragma mark Application lifecycle
 
 /**
- *	Required method to handle application launch
+ * Required method to handle application launch
  *
  * @param 
- * 		boilerplate parameters
+ *	boilerplate parameters
  *
  * @return 
- * 		YES, as required by operating system
+ *	YES, as required by operating system
  */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {    
@@ -90,19 +90,19 @@
 					   [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], 
 					   [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], nil];
 
-    // Override point for customization after application launch.
-    [window addSubview:tabBarController.view];
-    [self.window makeKeyAndVisible];
+	// Override point for customization after application launch.
+	[window addSubview:tabBarController.view];
+	[self.window makeKeyAndVisible];
     
-    return YES;
+	return YES;
 }
 
 
 /**
- *	Populate all contacts array (regardless of prefix)
+ * Populate all contacts array (regardless of prefix)
  *
  * @return 
- * 		none, populates global arrays
+ *	none, populates global arrays
  */
 -(void)populateAllContacts
 {
@@ -316,10 +316,10 @@
 
 
 /**
- *	Populate Z-Zone contacts array
+ * Populate Z-Zone contacts array
  *
  * @return 
- * 		none, populates global arrays
+ *	none, populates global arrays
  *
  * see populateAllContacts() (above) for detailed commenting on functionality
  */
@@ -520,10 +520,10 @@
 }
 
 /**
- *	Populate non Z-Zone contacts array
+ * Populate non Z-Zone contacts array
  *
  * @return 
- * 		none, populates global arrays
+ *	none, populates global arrays
  *
  * see populateAllContacts() (above) for detailed commenting on functionality
  */
@@ -722,11 +722,11 @@
  *	Helper method to prepare contact for sorting by stripping Z-Zone prefix, if present
  *
  * @param 
- * 		NSString strName
+ *	NSString strName
  *		The name to strip the prefix from
  *
  * @return 
- * 		The name without prefix
+ *	The name without prefix
  */
 -(NSString *) stripPrefix:(NSString *)strName
 {
@@ -758,15 +758,15 @@
  *	Helper method that tells sortUsingFunction how to sort the contacts
  *
  * @param 
- * 		id a
- *			id of first contact to compare
- *		id b
- *			id of second contact to compare
- *		context
- *			an unused parameter; but, required by sortUsingFunction
+ *	id a
+ *		id of first contact to compare
+ *	id b
+ *		id of second contact to compare
+ *	context
+ *		an unused parameter; but, required by sortUsingFunction
  *
  * @return NSInteger
- * 		returns the comparison between the two contacts
+ *	returns the comparison between the two contacts
  */
 static NSInteger order (id a, id b, void* context) 
 {
@@ -780,11 +780,11 @@ static NSInteger order (id a, id b, void* context)
  *	Helper method that takes contacts in or out of Z-Zone
  *
  * @param 
- * 		NSArray arrPerson
+ *	NSArray arrPerson
  *		The contact to change
  *
  * @return 
- * 		None, this function changes the contact in the iOS address book
+ *		None, this function changes the contact in the iOS address book
  */
 -(void)modContact:(NSArray *)arrPerson
 {
@@ -853,15 +853,15 @@ static NSInteger order (id a, id b, void* context)
 }
 
 /**
- *	Helper method that updates the prefix setting when the prefix setting is changed
- *  and batch processes all contacts with the new prefix
+ * Helper method that updates the prefix setting when the prefix setting is changed
+ * and batch processes all contacts with the new prefix
  *
  * @param 
- * 		NSString strNewPrefix
+ *	NSString strNewPrefix
  *		The prefix to apply to all prefixed contacts 
  *
  * @return 
- * 		None, this function changes the contact in the iOS address book
+ *	None, this function changes the contact in the iOS address book
  */
 -(void)resetPrefix:(NSString *)strNewPrefix
 {
@@ -944,40 +944,40 @@ Boilerplate methods required by iOS
 ************************************/
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    /*
-     Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-     Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-     */
+	/*
+	Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+	Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+	*/
 }
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    /*
-     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-     If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
-     */
+	/*
+	Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+	If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
+	*/
 }
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    /*
-     Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
-     */
+	/*
+	Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
+	*/
 }
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-     */
+	/*
+	Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+	*/
 }
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    /*
-     Called when the application is about to terminate.
-     See also applicationDidEnterBackground:.
-     */
+	/*
+	Called when the application is about to terminate.
+	See also applicationDidEnterBackground:.
+	*/
 }
 
 
@@ -985,9 +985,9 @@ Boilerplate methods required by iOS
 #pragma mark Memory management
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
-    /*
-     Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
-     */
+	/*
+	Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
+	*/
 }
 
 /**
@@ -999,10 +999,10 @@ Boilerplate methods required by iOS
 	[arrNormalContacts release];
 	[arrZzoneContacts release];
 	[tabBarController release];
-  [window release];
+	[window release];
 	[strPrefix release];
 	[arrLetters release];
-  [super dealloc];
+	[super dealloc];
 }
 
 @end

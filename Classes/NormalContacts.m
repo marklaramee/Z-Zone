@@ -25,13 +25,13 @@
 
 - (void)viewDidLoad 
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	appDelegate = (Z_ZoneAppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
 - (void)viewWillAppear:(BOOL)animated 
 {
-    [appDelegate populateNormalContacts];
+	[appDelegate populateNormalContacts];
 	[self.tableView reloadData];
 	[super viewWillAppear:animated];
 }
@@ -40,14 +40,14 @@
 #pragma mark -
 #pragma mark Table view data source
 /**
- *	Defines the number of sections for right side alphabetical navigation
+ * Defines the number of sections for right side alphabetical navigation
  *
  * @param 
- * 		UITableView tableView
+ *	UITableView tableView
  *		The view to act on
  *
  * @return NSInteger
- * 		27 - A-Z plus one number section
+ *	27 - A-Z plus one number section
  */
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 27;
@@ -57,13 +57,13 @@
  *	Returns the count of object for each section (for navigation)
  *
  * @param 
- * 		UITableView tableView
- *			The view to act on
- * 		NSInteger section
- *			which section to check
+ *	UITableView tableView
+ *		The view to act on
+ *	NSInteger section
+ *		which section to check
  *
  * @return 
- * 		NSInteger number of contacts in specified section
+ *	NSInteger number of contacts in specified section
  */
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	switch (section) 
@@ -81,13 +81,13 @@
  *	Sets header for right side navigation
  *
  * @param 
- * 		tableView tableView
- *			The view to act on
- * 		NSInteger section
- *			which section to check
+ *	tableView tableView
+ *		The view to act on
+ *	NSInteger section
+ *		which section to check
  *
  * @return 
- * 		NSString alphabetical section header (for displaay)
+ *	NSString alphabetical section header (for displaay)
  */
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
@@ -107,26 +107,26 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 */
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView 
 {
-    return appDelegate.arrLetters;
+	return appDelegate.arrLetters;
 }
 
 
 /**
- *	Create cell/contact for view
+ * Create cell/contact for view
  *
  * @param 
- * 		tableView tableView
- *			The view to act on
- * 		NSIndexPath indexPath
- *			which cell to operate on
+ *	tableView tableView
+ *		The view to act on
+ *	NSIndexPath indexPath
+ *		which cell to operate on
  *
  * @return 
- * 		UITableViewCell the processed cell view
+ *	UITableViewCell the processed cell view
  */
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
 {
-    //intialize vars
-    static NSString *CellIdentifier = @"Cell";
+	//intialize vars
+	static NSString *CellIdentifier = @"Cell";
 	NSUInteger intCurrentIndex;
 
 	//get the index of cell to operate on
@@ -141,11 +141,11 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 	}
     
 	//Get the cell and its configurations 
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) 
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil) 
 	{
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+	}
 	else 
 	{
 		UIView *transparentBackground = [[UIView alloc] initWithFrame:CGRectZero];
@@ -155,7 +155,7 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 		[transparentBackground release];
 	}
     
-    // Configure the cell...
+	// Configure the cell...
 	if([[appDelegate.arrNormalContacts objectAtIndex:intCurrentIndex] objectAtIndex:2]==@"YES")
 	{
 		//set Z-Zone display configuration
@@ -174,7 +174,7 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 	[[cell textLabel]setBackgroundColor:[UIColor clearColor]];	
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    return cell;
+	return cell;
 }
 
 
@@ -185,13 +185,13 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
  *	Handle cell row/contact click events
  *
  * @param 
- * 		tableView tableView
- *			The view to act on
- * 		NSIndexPath indexPath
- *			the cell to operate on
+ *	tableView tableView
+ *		The view to act on
+ *	NSIndexPath indexPath
+ *		the cell to operate on
  *
  * @return 
- * 		none, saves contact to iOS address book
+ *	none, saves contact to iOS address book
  */
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
@@ -261,7 +261,7 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 #pragma mark Memory management
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+	[super didReceiveMemoryWarning];
 }
 
 - (void)viewDidUnload {
@@ -276,7 +276,7 @@ provide array (from Z_ZoneAppDelegate) that maps index to letter
 - (void)dealloc 
 {
 	[appDelegate release];
-    [super dealloc];
+	[super dealloc];
 }
 
 @end

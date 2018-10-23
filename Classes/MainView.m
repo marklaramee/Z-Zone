@@ -13,17 +13,17 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	vwScroll.contentSize = CGSizeMake(320.0, 380.0);
 }
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+	// Releases the view if it doesn't have a superview.
+	[super didReceiveMemoryWarning];
 }
 
 - (void)viewDidUnload {
-    [super viewDidUnload];
+	[super viewDidUnload];
 }
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -35,7 +35,7 @@
 - (void)dealloc 
 {
 	[vwScroll release];
-    [super dealloc];
+	[super dealloc];
 }
 
 @end
